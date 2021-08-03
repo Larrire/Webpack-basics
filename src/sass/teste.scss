@@ -1,0 +1,31 @@
+$success-background-color: #90ee90;
+$success-border-color: #80dd80;
+
+$success-hover-background-color: #90d990;
+$success-hover-border-color: #75cc75;
+
+$success-active-background-color: #90FF90;
+$success-active-border-color: #70ff70;
+
+$success-font-color: #FFF;
+
+$text-shadow: 1px 1px 1px rgba(0,0,0,0.35);
+
+.button-success {
+    background-color: $success-background-color;
+    color: $success-font-color;
+    border: 1px solid $success-border-color;
+    border-radius: 10px;
+    padding: 10px;
+    text-shadow: $text-shadow;
+    cursor: pointer;
+}
+
+.button-success:hover {
+    background-color: $success-hover-background-color;
+    border: 1px solid $success-hover-border-color;
+}
+
+.button-success:active {
+    background-color: $success-active-background-color;
+}

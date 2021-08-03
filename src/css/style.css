@@ -17,6 +17,7 @@ h1.aqua {
 .img {
     width: 200px;
     height: 200px;
+    border: 1px dashed red;
     background-size: contain;
 }
 
